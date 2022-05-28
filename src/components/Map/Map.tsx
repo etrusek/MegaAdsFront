@@ -42,18 +42,6 @@ export const Map = () => {
                         }
                     }
                 )}
-                <Marker position={[9, 1]}>
-                    <Popup>
-                        <h2>Coś w Płockowie</h2>
-                        <p>I opis do tego</p>
-                    </Popup>
-                </Marker>
-                <Marker position={[52.5527606, 19.6995239]}>
-                    <Popup>
-                        <h2>Coś w Płockowie obok</h2>
-                        <p>I opis do tego</p>
-                    </Popup>
-                </Marker>
             </MapContainer>
         </div>
     )
